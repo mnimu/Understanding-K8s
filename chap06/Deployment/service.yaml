@@ -15,5 +15,5 @@ spec:
   # (3) Podの条件(ラベル)
   selector:
     app: photo-view
-    ver: v1.0
+    ver: v2.0
 

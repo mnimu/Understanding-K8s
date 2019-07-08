@@ -6,7 +6,7 @@ metadata:
 
 # (2) Podのスペック
 spec:
-  #restartPolicy: OnFailure 
+  restartPolicy: OnFailure 
   
   # (3) コンテナの仕様
   containers:
@@ -17,4 +17,4 @@ spec:
         cpu: 400m
         memory: 1Gi
     command: ["stress"]
-    args: ["--vm", "1", "--vm-bytes", "500M", "--vm-hang", "1"]
+    args: ["--vm", "1", "--vm-bytes", "2G", "--vm-hang", "1"]

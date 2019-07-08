@@ -19,7 +19,7 @@ spec:
 
     spec:
       containers:
-      - image: sampleacrregistry.azurecr.io/photo-view:v1.0   # ここを変更する
+      - image: photo-view:v1.0   # ここを変更する
         name: photoview-container   # コンテナ名
         ports:
         - containerPort: 80   # ポート番号

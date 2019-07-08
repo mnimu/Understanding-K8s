@@ -18,7 +18,7 @@ spec:
         app: config-view
     spec:
       containers:
-      - image: sampleacrregistry.azurecr.io/photo-view:v3.0   # コンテナイメージの場所
+      - image: 192.168.100.187:5000/niimura/photo-view:v3.0   # コンテナイメージの場所
         name: photoview-container   # コンテナ名
         imagePullPolicy: Always   # コンテナイメージのpull条件
 

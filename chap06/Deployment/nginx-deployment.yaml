@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.14   # コンテナイメージの場所
+        image: nginx:1.15   # コンテナイメージの場所
         ports:
         - containerPort: 80   # ポート番号
